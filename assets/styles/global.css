@@ -20,6 +20,12 @@ html{
     --grey-blue:#A1B2CD;
     --grey-light:#E5EAF1;
 
-    /* 1rem = 16px (User Agent) - 100% (User Agent) */
-    font-size: 1.75rem;
+    /* 1rem = 16px (User Agent) - 100% (User Agent), logo, 10px = 62.5% */
+    font-size: 62.5%;
 }
+
+body{
+    height: 100vh;
+    background: var(--background);
+}
+
