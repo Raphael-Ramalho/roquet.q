@@ -14,7 +14,7 @@ header{
 
 #bg{
     grid-area: left;
-    background: url(../images/home-bg-img.svg);
+    background: url(../images/home-bg-img.svg) no-repeat top/contain;
 }
 
 main{
@@ -30,4 +30,16 @@ main .container{
 main h2{
     font-family: 'Poppins', sans-serif;
     color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem);
+    margin-bottom: 2.4rem;
+}
+
+input{
+    border: 0.2rem solid var(--grey-blue);
+    padding: 0 1.6rem;
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.8rem;
 }
