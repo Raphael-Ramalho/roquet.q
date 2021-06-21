@@ -32,9 +32,7 @@ body{
 body, button, input, textarea{
     /*O clamp é um intervalo de tamanho*/
     font-size: clamp(14px, 1.6rem, 2vw);
-
     font-family: 'Open Sans', sans-serif;
-    /*font-family: 'Poppins', sans-serif;*/
 }
 
 .content{
