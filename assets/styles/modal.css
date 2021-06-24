@@ -1,3 +1,8 @@
+.modal-wrapper.active{
+    visibility: visible;
+    opacity: 1;
+} 
+
 .modal-wrapper{
     position: fixed;
     width: 100vw;
@@ -6,6 +11,9 @@
     left: 0;
     display: flex;
     background: rgba(4, 9, 17, 0.8);
+
+    visibility: hidden;
+    opacity: 0; /*o visibility e o opacity fazem a mesma coisa: esconder o pop up que aparece quando queremos excluir uma pergunta. Usamos os 2 como uma garantia de que o pop up seja escondido independente do navegador utilizado. O display none não foi usado pq ele faz com que o elemento deixe de existir, o que não é o nosso objetivo. queremos que ele seja apenas escondido.*/
 }
 
 .modal-wrapper .modal{
