@@ -1,0 +1,24 @@
+{
+  "name": "roquet.q",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntar anonimas de usuários direcionadas ao dono da pagina. projeto desenvolvido na semana NLw Rocketseat na missão discover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raphael-Ramalho/roquet.q.git"
+  },
+  "keywords": [],
+  "author": "Raphael Ramalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raphael-Ramalho/roquet.q/issues"
+  },
+  "homepage": "https://github.com/Raphael-Ramalho/roquet.q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
